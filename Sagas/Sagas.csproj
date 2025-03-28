@@ -7,14 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Application\Application.csproj" />
-      <ProjectReference Include="..\Domain\Domain.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
       <PackageReference Include="Orderseer.Common.Entities" Version="2.0.1" />
-      <PackageReference Include="Orderseer.Common.Extensions" Version="1.0.0" />
     </ItemGroup>
 
 </Project>
